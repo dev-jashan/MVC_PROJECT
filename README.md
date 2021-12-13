@@ -1,2 +1,3 @@
 # MVC_PROJECT
- This is a basic stock market stimulation.
+ This is a basic stock market stimulation made with vanilla jaavascript and php. I have used MVC pattern here (MODEL VIEW CONTROLLER).
+ To get the stocks automatically you have to run the index.php script in datastorage folder automatically with the help of task scheduler. Create it for 9am ,12pm and 3pm. When you create the user or register the user for the first time you will get 10,000 dollars in your account to play. NOW !! if you lost all the money then you are lost now to play again you have to create a new account but to get the history of all transection you can access your previous account. I HOPE YOU ENJOY THIS LITTLE STIMULATION !!!. 

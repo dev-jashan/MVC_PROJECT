@@ -1,4 +1,4 @@
-<h1>hi this is index</h1>
+
 <div class="stockTable">
     <div class="stockStyle">
         <table class="table table-dark"  id="stockTable">

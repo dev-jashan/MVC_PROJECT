@@ -1,0 +1,38 @@
+#backBtn{
+    font-weight: bold;
+    font-size: large;
+}
+#logo{
+    font-weight: bold;
+    font-size:27px;
+    text-decoration:underline;
+    text-decoration-color: green;
+}
+#backBtn:hover{
+    text-decoration:underline;
+    color:red
+}
+#loginBtn:hover{
+    text-decoration:underline;
+    color:green
+}
+#loginBtn{
+    font-weight: bold;
+    font-size:19px;
+}
+#historyBtn{
+    margin:4px;
+    margin-right:45px ;
+    padding:5px;
+    font-size:20px;
+    font-weight: bold;
+}
+#cartBtn{
+    font-size:19px;
+    font-weight: bold;
+}
+#sellBtn{
+    font-size:19px;
+    font-weight: bold;
+}
+  

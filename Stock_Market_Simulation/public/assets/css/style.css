@@ -1,0 +1,128 @@
+
+.get-in-touch {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+  
+}
+.get-in-touch .title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 25px;
+  line-height: 58px;
+  padding-bottom: 38px;
+  background: linear-gradient(to right,#304355,#20283a  100%) !important;
+    
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+  
+}
+.contact-form .input-text {
+  display: block;
+  width: 90%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #1a5e96; 
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  margin: 8px;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+          transform: translateY(-24px);
+}
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #031e77;
+  cursor: text;
+  
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, 
+  
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+  background-image: linear-gradient(455deg,#304355,#20283a);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width:200px;
+  cursor: pointer;
+}
+
+
+#loginSection{
+  
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.3); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  
+}
+#home{
+  margin:4px;
+  margin-right:45px ;
+  padding:5px;
+  font-size:20px;
+  font-weight: bold;
+
+}
+
+.buyStk{
+  background-color: green;
+  padding: 6%;
+  border-radius: 7PX;
+}
+.sellStk{
+  background-color: red;
+  padding: 3%;
+  border-radius: 7PX;
+}
+
+
+span:hover {
+  cursor:pointer;
+}
+#userMoney{
+  text-align: center;
+  background-color:green;
+  color: white;
+  font-weight: bold;
+  font-size: 200%;
+  width: 50%;
+}
+#moneyContainer{
+  text-align: center;
+}
+#lost{
+  margin-top: 5%;
+  background-color:red;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 300%;
+
+}

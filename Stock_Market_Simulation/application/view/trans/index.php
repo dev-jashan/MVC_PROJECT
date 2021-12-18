@@ -40,17 +40,7 @@
                 </tbody>
               </table>
             </div>
-            <!-- / Shopping cart table -->
-        
-            <div class="d-flex flex-wrap justify-content-between align-items-center pb-4">
-              
-                <div class="text-right mt-4">
-                  <label class="text-muted font-weight-normal m-0">Total price</label>
-                  <div class="text-large"><strong id="grandTtl">0</strong></div>
-                </div>
-              </div>
-            </div>
-        
+           
             <div class="float-right">
               <button type="button" class="btn btn-lg btn-primary mt-2" id="checkout">Checkout</button>
             </div>

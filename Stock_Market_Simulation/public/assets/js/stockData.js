@@ -110,8 +110,10 @@
         let stockTable=document.getElementById('stockTable');
         let moneyContainer=document.getElementById('lostContainer');
 
-        // if 
-        if(money.innerHTML==0){
+        init();;
+
+        // if money is 0 then show the losing text
+         if(money.innerText==0){
             moneyContainer.style.display='block';
             sellBtn.style.display='none';
             cartBtn.style.display='none';
@@ -120,7 +122,5 @@
             moneyContainer.style.display='none';
             
         }
-        
-        init();
     });
 })();

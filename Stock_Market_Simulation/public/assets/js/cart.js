@@ -22,7 +22,7 @@
             let getName=item.parentElement.parentElement.children[0].children[0].children[0].children[0].innerHTML;
             let getStkPrice=item.parentElement.parentElement.children[1].innerHTML;
             let status=item.parentElement.parentElement.children[4].innerHTML;
-            console.log(g)
+           // console.log(g)
             if(status=='sell'){
                 item.parentElement.parentElement.children[2].children[0].readOnly = true;
                 
